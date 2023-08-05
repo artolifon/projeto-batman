@@ -159,6 +159,10 @@ li:hover {
     background-image: url('./banner3.jpg');
 }
 
+.nome {
+    background-color: rgba(0,0,0,0);
+}
+
 footer {
     height: 300px;
     margin-top: 50px;
@@ -261,6 +265,5 @@ span {
 
     .nome {
         padding: 0 0 20px 10px;
-        background-color: rgba(0,0,0,0);
     }
 }
