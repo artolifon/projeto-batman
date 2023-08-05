@@ -212,7 +212,6 @@ span {
     #banner {
         width: 100%;
         background-position: 37%;
-        border: 2px solid white;
     }
 
     #trailer-container {
@@ -220,19 +219,17 @@ span {
         height: 400px;
         display: flex;
         flex-direction: column; 
-        border: 2px solid white;
     }
 
     .content {
         width: 95%;
         display: flex; 
         flex-direction: column;
-        border: 2px solid white;
+        left: 0;
     }
 
     .trailer {
         width: 100%;
-        border: 2px solid white;
     }
 
     #sinopse {
@@ -240,12 +237,10 @@ span {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        border: 2px solid white;
     }
 
     .description {
         width: 100%;
-        border: 2px solid white;
     }
 
     .button {
