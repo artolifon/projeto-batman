@@ -237,6 +237,7 @@ span {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-left: 0;
     }
 
     .description {
