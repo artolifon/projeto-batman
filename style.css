@@ -253,4 +253,13 @@ span {
         grid-template-columns: 1fr;
         margin-top: 150px;
     }
+
+    .card {
+        padding: 0 0;
+    }
+
+    .nome {
+        padding: 0 0 20px 10px;
+        background-color: rgba(0,0,0,0);
+    }
 }
