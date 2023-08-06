@@ -73,3 +73,8 @@ h1 {
     height: 90%;
     border: 2px solid #fff;
 }
+
+.icon {
+    height: 40px;
+    width: auto;
+}
