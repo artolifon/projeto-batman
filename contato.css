@@ -68,6 +68,7 @@ h1 {
     align-items: center;
     color: #fff;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 17px;
 }
 
 .message-box {
@@ -97,10 +98,6 @@ h1 {
 
 h2 {
     margin-bottom: 5px;
-}
-
-span {
-    font-size: 19px;
 }
 
 .email {
