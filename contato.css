@@ -74,19 +74,80 @@ h1 {
 .message-box {
     width: 45%;
     height: 90%;
-    border: 2px solid #fff;
     border-radius: 10px;
     display: flex;
-
+    justify-content: space-around;
+    background-color: black;
 }
 
 .form {
+    width: 40%;
     height: 100%;
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.form-container {
+    height: 60%;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.button-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+form {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.field{
+    width: 100%;
+    height: 20%;
+}
+
+input, textarea {
+    display: block;
+    border-radius: 5px; 
+    margin-top: 10px;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+input {
+    height: 40%;
+}
+
+textarea {
+    height: 60%;
+}
+
+button {
+    background-color: #D21617;
+    width: 50%;
+    height: 20%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .contact {
@@ -94,6 +155,7 @@ h1 {
     width: 40%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -102,33 +164,37 @@ h2 {
 
 .email {
     height: 25%;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-left: 25px;
 }
 
 .location {
     display: flex;
     flex-direction: column;
     height: 25%;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-left: 25px;
 }
 
 .icons-container {
-    height: 50%;
+    height: 40%;
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 60px;
 }
 
 .icons {
     width: 50%;
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
 }
 
 .icon {
