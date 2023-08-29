@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../media/banners/banner2.jpg');
+    background-size: cover;
+    background-position: 40%;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.message-container {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 17px;
+}
+
+.message-box {
+    width: 45%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.form-container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.form-box {
+    height: 60%;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.button-container {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.field{
+    width: 100%;
+    height: 20%;
+}
+
+input, textarea {
+    display: block;
+    border-radius: 5px; 
+    margin-top: 10px;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+input {
+    height: 40%;
+}
+
+textarea {
+    height: 60%;
+}
+
+button {
+    background-color: #D21617;
+    width: 50%;
+    height: 20%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.contact-container {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box {
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.email, .location {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 25px;
+}
+
+.icons-container {
+    height: 43%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.icon {
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+}
+
+footer {
+    height: 300px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 1366px){
+    body {
+        background-position: 30% 0%;
+        height: 100%;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .message-container {
+        height: 450px;
+        margin-top: 10px;
+    }
+
+
+    .contact-container{
+        justify-content: flex-end;
+    }
+
+    .icons-container {
+        margin-top: 25px;
+    }
+    
+}
+
+@media(max-width: 768px){
+    body{
+        height: 1280px;
+        background-repeat: no-repeat;
+        background-position: 50% 80px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .message-container {
+        height: 75%;
+    }
+
+    .message-box {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .form-container {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .form-box {
+        width: 90%;
+    }
+
+    .button-container {
+        width: 90%
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .contact-box {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .email, .location {
+        width: 45%;
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+
+
+}
+
+@media(max-width: 480px){
+
+}
