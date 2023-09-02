@@ -245,17 +245,44 @@ footer {
     .message-container {
         height: 450px;
         margin-top: 10px;
+        font-size: 13px;
     }
 
+    .form-container {
+        margin-left: 40px;
+    }
 
-    .contact-container{
-        justify-content: flex-end;
+    button {
+        margin-bottom: 30px;
+    }
+
+    .contact-box {
+        height: 63%;
+    }
+
+    h2 {
+        font-size: 16px;
     }
 
     .icons-container {
-        margin-top: 25px;
+        height: 33%;
+    }
+
+    .icons {
+        margin-left: 35px;
+    }
+
+    .icon {
+        height: 20px;
     }
     
+    .email, .location {
+        height: 40%;
+    }
+
+    footer {
+        font-size: 15px;
+    }
 }
 
 @media(max-width: 768px){
