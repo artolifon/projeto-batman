@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgba(0,0,0,0)
     list-style: none;
     text-decoration: none;
 }
@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: black;
 }
 
 nav {
@@ -186,6 +187,14 @@ footer {
 }
 
 @media(max-width: 1366px){
+    header {
+        height: 60px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+    
     .content {
         width: 80%;
         height: 85%;

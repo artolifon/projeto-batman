@@ -287,9 +287,8 @@ footer {
 
 @media(max-width: 768px){
     body{
-        height: 1280px;
-        background-repeat: no-repeat;
-        background-position: 50% 80px;
+        height: 100vh;
+        background-position: 50% 60px;
     }
 
     nav {
