@@ -112,7 +112,7 @@ form {
     align-items: center;
 }
 
-.field{
+.field {
     width: 100%;
     height: 20%;
 }
@@ -231,7 +231,7 @@ footer {
 
     header {
         height: 60px;
-    }
+    }   
 
     li {
         font-size: 15px;
